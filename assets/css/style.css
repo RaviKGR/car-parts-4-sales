@@ -1,0 +1,190 @@
+* {
+	font-family: inherit;
+	/* border: #ed0b17 2px solid; */
+}
+.nav-bg-color {
+	background-color: #848991;
+}
+.navbar-title, .profile-icon, .submenu-item {
+	text-decoration: none;
+	position: relative;
+	font-family: inherit;
+	font-weight: 600;
+}
+.navbar-nav .nav-link {
+	color: rgba(33, 37, 41, 0.75) !important;
+} 
+.navbar-title:hover,
+.navbar-title:focus,
+.navbar-title:active,
+.submenu-item:hover,
+.submenu-item.active:focus,
+.submenu-item:active,
+.navbar-title.active {
+	color: #FF2D37 !important;
+}
+.submenu-item:hover,
+.submenu-item.active:focus,
+.submenu-item:active {
+	background-color: #ffffff !important;
+}
+.navbar-title.active::before, .navbar-title::before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	/* top: 90%; */
+	bottom: 0;
+	left: 0;
+	background-color: #FF2D37;
+	transform: scaleX(0);
+	transition: transform 0.3s ease;
+  }
+  .navbar-title.active:hover:before,
+  .navbar-title:hover:before,
+  .navbar-title:focus:before,
+  .submenu-item:hover:before,
+  .submenu-item:focus:before,
+  .navbar-title.active:before {
+	transform: scaleX(1);
+  }
+  .dropdown-menu[data-bs-popper] {
+    left: unset;
+}
+  .product-ad {
+	color: #ffffff;
+	font-family: inherit;
+	font-weight: 600;
+  }
+  .background-img {
+	background-image: linear-gradient(277deg,  rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(/assets/images/Cars-Wallpapers.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: center;
+  }
+  .filter-color {
+	background-color: #FF2D37;
+	width: 15%;
+  }
+  .button-pro, .button-pro:hover, .button-pro:active, .button-pro:focus {
+	background-color: #FF2D37 !important;
+	border-color: #FF2D37 !important;
+	color: #ffffff !important;
+  }
+  .card-items {
+	/* height: 35vh; */
+	-webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.54); 
+	box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.44);
+  }
+  .card-items .card-img {
+	width: 45% !important;
+  }
+  .card-items:hover {
+	-webkit-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.44); 
+	box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.44);
+  }
+  @media screen and (max-width:768px) {
+	.card-items {
+		height: auto;
+	}
+  }
+  @media screen and (min-width:992px) {
+	.card-items {
+		height: auto !important;
+	}
+  }
+  @media screen and (min-width: 768px) {
+	.card-items {
+		border-radius: 48% 52% 51% 49% / 50% 49% 51% 50%;
+	  }
+  }
+  
+  .card-details {
+	height: 26vh;
+  }
+  .card-image {
+	width: 50%;
+  }
+  .card-img-details {
+	height: 15vh;
+	padding-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .product-price {
+	color: #FF2D37;
+  }
+  .nav-pills .nav-link {
+	color: #434549;
+  }
+  .nav-pills .nav-link.active {
+	background-color: #FF2D37;
+  }
+  .bg-img-1 {
+	background-image: url(../images/car-bg-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .bg-img-2 {
+	background-image: url(../images/spacker.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .bg-img-3 {
+	background-image: url(../images/bike.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .icon-boder {
+	border-radius: 48% 52% 51% 49% / 50% 49% 51% 50%;
+  }
+  /* ----------------------catagory carousel------------------------------- */
+ .catagory .owl-stage-outer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+ }
+ .heading {
+	font-size: 6vh;
+ }
+ .sub-heading {
+	font-size: 4vh;
+	font-family: serif;
+ }
+ .heading-span {
+	color: #FF2D37;
+ }
+  /* -------------------------------------------footer----------------------------------------------- */
+  .footer-bg {
+	background-color: #434549;
+  }
+  .company-info, .list-item, .footer-heading {
+	color: #ffffff;
+  }
+  .footer-heading {
+	font-weight: 800;
+	font-size: 28px;
+  }
+  .list-item {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 18px;
+  }
+
+  .list-item:hover {
+	color: #FF2D37;
+	padding-left: 10px;
+  }
+  .list-li {
+	list-style: none;
+  }
+
+  .list-filter {
+	width: 90%;
+  }
+  @media screen and (max-width: 768px) {
+	.list-filter {
+		width: 100%;
+	  }
+  }
